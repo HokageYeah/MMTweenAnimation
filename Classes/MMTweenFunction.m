@@ -23,6 +23,8 @@ static MMTweenFunction *sharedFunction = nil;
 + (void)load {
     MMTweenFunction *func = [MMTweenFunction sharedInstance];
     
+    NSLog(@"大hi塑复合的身份会死u");
+    
     [func setupBlocks];
 }
 
@@ -31,6 +33,7 @@ static MMTweenFunction *sharedFunction = nil;
     {
         if (sharedFunction == nil) {
             sharedFunction = [[self alloc] init];
+            NSLog(@"大hi塑复合的身份会死u");
         }
     }
     return sharedFunction;
