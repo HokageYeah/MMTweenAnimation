@@ -27,6 +27,8 @@
         self.path = [UIBezierPath bezierPath];
         self.path.lineWidth = 1.0f;
         
+        NSLog(@"大hi塑复合的身份会死u");
+
         self.dots = [@[] mutableCopy];
     }
     return self;

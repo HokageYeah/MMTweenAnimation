@@ -34,6 +34,8 @@ static MMTweenFunction *sharedFunction = nil;
         if (sharedFunction == nil) {
             sharedFunction = [[self alloc] init];
             NSLog(@"大hi塑复合的身份会死u");
+            NSLog(@"大hi塑复合的身份会死u");
+
         }
     }
     return sharedFunction;
@@ -57,6 +59,8 @@ static MMTweenFunction *sharedFunction = nil;
         double s = 1.70158;
         t = t / d - 1;
         return c * (t * t * ((s + 1) * t + s) + 1) + b;
+        NSLog(@"大hi塑复合的身份会死u");
+
     };
     
     MMTweenFunctionBlock blockBackInOut = ^(double t, double b, double c, double d)

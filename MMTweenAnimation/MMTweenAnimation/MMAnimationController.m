@@ -70,6 +70,8 @@
         [ws.paintView addDot:ws.ball.center];
     };
     
+    NSLog(@"大hi塑复合的身份会死u");
+
     
 }
 
